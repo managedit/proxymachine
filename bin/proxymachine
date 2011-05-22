@@ -4,6 +4,7 @@ $:.unshift File.join(File.dirname(__FILE__), *%w[.. lib])
 
 require 'optparse'
 require 'proxymachine'
+require 'proxymachine/kernel'
 
 begin
   options = {:host => "0.0.0.0", :port => 5432}
